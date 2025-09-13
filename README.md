@@ -7,18 +7,19 @@ This project trains a deep learning model to classify dental images into differe
 ### 📂 Dataset
 The dataset is expected in the following structure:
 Teeth DataSet/
- ├── train/
- │    ├── CaS/
- │    ├── CoS/
- │    ├── Gum/
- │    ├── MC/
- │    ├── OC/
- │    ├── OLP/
- │    └── OT/
- ├── val/
- │    └── (same structure as train)
- └── test/
-      └── (same structure as train)
+- train/
+  - CaS/
+  - CoS/
+  - Gum/
+  - MC/
+  - OC/
+  - OLP/
+  - OT/
+- val/
+  - (same structure as train)
+- test/
+  - (same structure as train)
+
 
 ## The 7 classes are:
 
